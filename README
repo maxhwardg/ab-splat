@@ -1,0 +1,7 @@
+Simply use 'make' to build the 'ab-splat' executable. Usage information will be
+printed to the standard output stream when ab-splat is executed.
+Vienna RNA (2.1.6) has been modified slightly, and a statically library version is 
+included in the vienna folder as 'libRNA.a'. The modified file (LFold.c) has 
+also been included, along with the header needed to use the library. Obviously, 
+libRNA.a can be recompiled with a newer version of Vienna by dropping the LFold.c 
+file in, and then running Vienna's makefile.
