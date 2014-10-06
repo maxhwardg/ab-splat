@@ -1,5 +1,5 @@
 #ab-splat
-This repository contains source code the ab-splat algorithm.
+This repository contains source code for the ab-splat algorithm.
 
 ##Setup
 Simply use 'make' to build the 'ab-splat' executable. Open this folder in the command line, and enter 'make'. Obviously you may need to install the latest versions of make and GCC if you do not have them installed.
