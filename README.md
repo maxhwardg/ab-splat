@@ -9,7 +9,7 @@ A brief version of usage information will be printed to the standard output stre
 
 Call ab-splat like this './ab-splat a b' where a and b are the values for a and b used by the algorithm to generate sliding windows. If no values for a and b are provided, default values will be used. It is reccomend to use the default values unless you really know what you are doing.
 
-The ab-splat executable expects any number of strings representuing RNA primary sequences separated by whitespace as input. This input is read from the standard input stream. Please use simple, upper-case only, defintions for your RNA inputs (eg. AUUCGAUCGUUCGAUCGCU).
+The ab-splat executable expects any number of strings representuing RNA primary sequences separated by whitespace as input. This input is read from the standard input stream. Please use simple, upper-case only defintions for your RNA inputs (eg. AUUCGAUCGUUCGAUCGCU).
 
 ##Notes
 Vienna RNA (2.1.6) has been modified slightly for ab-splat, and a static library version is included in the vienna folder as 'libRNA.a'. The modified file (LFold.c) has also been included, along with the header needed to use the library. Obviously, libRNA.a can be recompiled with a newer version of Vienna by dropping the LFold.c and LFold.h files into the Vienna RNA source, and then running Vienna's makefile. Running this makefile produces libRNA.a, as well as all the Vienna RNA binaries.
